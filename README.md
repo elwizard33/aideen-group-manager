@@ -27,9 +27,11 @@
 </h3>
 
 <p align="center">
-    A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/AideenSmartGroupManager"> Aideen Smart Group Manager </a> | 
-    <a href="https://t.me/ASGMSupport"> ASGMSupport </a>
+    Aideen Smart Group Manager (ASGM) is an AI-powered Telegram bot designed to revolutionize the way communities interact and are managed on the platform. Built using Python and leveraging the Pyrogram library, ASGM goes beyond traditional group management tasks such as moderation, welcome messages, and user verification. It introduces intelligent interaction capabilities, enabling it to engage with community members in a more personalized and dynamic manner. <br>
+
+The AI component of ASGM is designed to understand and respond to user queries, facilitate discussions by prompting engaging topics, and even mediate conflicts within the community by detecting and addressing negative behaviors. This not only enhances the overall user experience but also significantly reduces the workload on human administrators by automating routine tasks and interactions.<br>
+
+Whether you're running a small community group or managing a large online gathering, Aideen Smart Group Manager stands ready to assist. It is constantly learning and evolving, promising to bring a new level of intelligence and efficiency to Telegram group management.
 </p>
 
 <h2 align="center"> 
@@ -48,10 +50,10 @@
 </h2>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/AideenSmartGroupManager
-thehamkercat@arch:~$ cd AideenSmartGroupManager
-thehamkercat@arch:~$ pip3 install -U -r requirements.txt
-thehamkercat@arch:~$ cp sample_config.py config.py
+ git clone https://github.com/thehamkercat/AideenSmartGroupManager
+ cd AideenSmartGroupManager
+ pip3 install -U -r requirements.txt
+ cp sample_config.py config.py
 ```
  
 <h3 align="center"> 
@@ -63,7 +65,7 @@ thehamkercat@arch:~$ cp sample_config.py config.py
 </h2>
 
 ```console
-thehamkercat@arch:~$ python3 -m asgm
+ python3 -m asgm
 ```
 
 <h3 align="center"> 
@@ -71,10 +73,10 @@ thehamkercat@arch:~$ python3 -m asgm
 </h3>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/AideenSmartGroupManager
-thehamkercat@arch:~$ cd AideenSmartGroupManager
-thehamkercat@arch:~$ pip3 install pyrogram TgCrypto
-thehamkercat@arch:~$ python3 str_gen.py
+ git clone https://github.com/thehamkercat/AideenSmartGroupManager
+ cd AideenSmartGroupManager
+ pip3 install pyrogram TgCrypto
+ python3 str_gen.py
 ```
 
 <h1 align="center"> 
@@ -82,9 +84,9 @@ thehamkercat@arch:~$ python3 str_gen.py
 </h1>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/AideenSmartGroupManager
-thehamkercat@arch:~$ cd AideenSmartGroupManager
-thehamkercat@arch:~$ cp sample_config.env config.env
+ git clone https://github.com/thehamkercat/AideenSmartGroupManager
+ cd AideenSmartGroupManager
+ cp sample_config.env config.env
 ```
 
 <h3 align="center"> 
@@ -92,8 +94,8 @@ thehamkercat@arch:~$ cp sample_config.env config.env
 </h3>
 
 ```console
-thehamkercat@arch:~$ sudo docker build . -t asgm
-thehamkercat@arch:~$ sudo docker run asgm
+ sudo docker build . -t asgm
+ sudo docker run asgm
 ```
 
 <h2 align="center"> 
@@ -121,15 +123,7 @@ async def some_function(_, message):
 # Many useful functions are in, asgm/utils/, asgm, and asgm/core/
 ```
 
-### Enhanced Description
-
-Aideen Smart Group Manager (ASGM) is a cutting-edge, AI-powered Telegram bot designed to revolutionize the way communities interact and are managed on the platform. Built using Python and leveraging the Pyrogram library, ASGM goes beyond traditional group management tasks such as moderation, welcome messages, and user verification. It introduces intelligent interaction capabilities, enabling it to engage with community members in a more personalized and dynamic manner.
-
-The AI component of ASGM is designed to understand and respond to user queries, facilitate discussions by prompting engaging topics, and even mediate conflicts within the community by detecting and addressing negative behaviors. This not only enhances the overall user experience but also significantly reduces the workload on human administrators by automating routine tasks and interactions.
-
-Whether you're running a small community group or managing a large online gathering, Aideen Smart Group Manager stands ready to assist. It is constantly learning and evolving, promising to bring a new level of intelligence and efficiency to Telegram group management.
 
 
-<h3 align="center"> 
-   And put that file in wbb/modules/, restart and test your bot.
-</h3>
+
+
